@@ -20,6 +20,7 @@ android_app_import {
 cc_prebuilt_library_shared {
     name: "libjamesdsp",
     check_elf_files: false,
+    ignore_max_page_size: true,
     strip: {
         none: true,
     },
